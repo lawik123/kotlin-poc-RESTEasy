@@ -1,4 +1,4 @@
- # Kotlin Hibernate PoC
+ # Kotlin RESTEasy (JAX-RS) PoC
  This project is a PoC of using Kotlin and RESTEasy (JAX-RS), it showcases the following features:
  * Defining GET, POST, DELETE, and PUT endpoints using annotations 
  and the possibility of defining the following parameters using annotations:
@@ -18,7 +18,7 @@ Run the following command in the root directory of the project: `gradlew appRun`
 ## About
 
 ### Defining endpoints
-Defining endpoints is no different from defining endpoints in Java. As you can see in `PersonEndpoint.kt` and `HeaderEndpoint.kt` the endpoints are easily defined using JAX-RS annotations.
+Defining endpoints is no different from defining endpoints in Java. As you can see in `PersonEndpoint.kt` and `HeaderEndpoint.kt` endpoints and parameters are easily defined using JAX-RS annotations.
 
 ### (de-)Serialization
 When it comes to serialization with RESTEasy, it is common to make use of the Jackson library. In Java it is as easy as adding Jackson as a dependency, in Kotlin some extra work is required. 
