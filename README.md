@@ -13,7 +13,7 @@
  1. Clone this repository
 
 ## Running the project
-Run the following command in the root directory of the project: `gradlew appRun`. This will download gradle, download the required dependencies and run the project in Tomcat`.
+Run the following command in the root directory of the project: `gradlew appRun`. This will download gradle, download the required dependencies and run the project in Tomcat.
 
 ## About
 
